@@ -63,7 +63,7 @@ app.MapGet("/veichles", ([FromServices] IMapper mapper) =>
             Brand = "Honda",
             Configuration = new MotorcycleConfiguration
             {
-                Sidecar = false
+                Sidecar = true
             }
         }
     };
